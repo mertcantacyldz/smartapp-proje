@@ -1,0 +1,12 @@
+
+/* Slider hazır yapı olduğu için ona özel bir css dosyası açtım */
+
+.slick-next::before {
+    color: rgba(196, 195, 195, 0.4); 
+}
+
+.slick-prev::before {
+    content: '\2190';
+    color: rgba(196, 195, 195, 0.4); 
+    
+}
