@@ -1,19 +1,35 @@
-Merhabalar bu  metinde projede yaptıklarımdan bahsedeceğim.
+# Proje Hakkında
 
-1- Tarih ve Saat verileri dinamik olarak anlık alınmakta kısaca bugünün tarihini göstermekte
-2-Veriler fetch yardımı ile alındı ve proje de  typscript kullanıldı
-3-Component-1 de bulunan iconların buton olduğunu var sayarak hover olduğunda scale(büyüme) animasyonu eklendi
-4-Component2- de bulunan resimlere sürükle ve bırak özelliği eklendi kullanıcı resimlere tıklayıp 
-   basılı tutarak kendi aralarında yerlerini değiştirebilir
-5- Verinin gelmesinde sorun yaşanması halinde ekranda belirecek animasyonlu loading ekranı yapıldı
-fetch yapısını bozarak( veri gelmesini engelleyerk) ya da setInterval ile verinin gelmesini geciktirerek  görüntülenebilir
-6-Sayfa açılırken  divlere sağdal sola kayarak gelme animasyonu eklendi
-7- Component 3 de bulunan slider kısmına  sadece  buton ile değil aynı zamanla mouse ile tıklayıp kaydırma özelliği ve animasyonu eklendi
-8- Component-5 deki kısma chart geliştirildi fakat  design de bulunan Component-5  gibi görünmediği için Component-5 figma-
-    tasarımına göre yapıldı ama Chart çalışır vaziyettedir istenirse eklenip design edilebilir.
-     Kontrol etmek   için components klasöründe ki Chart.tsx dosyasına bakılabilir
-9- Proje mobil responsive geliştirilmiştir  Spesifik olarak belirli bir telefonda çalışmasam da 
-iphone 14 pro max, galaxy 20 ultra ve galaxy s8+ da doğru görüntüyü alabilirsiniz.   
+Bu metinde, projede gerçekleştirilen özelliklerden bahsedeceğim.
+
+1. **Tarih ve Saat Verileri:**
+   - Tarih ve saat verileri dinamik olarak anlık alınmakta, kısaca bugünün tarihini göstermekte.
+
+2. **Veri Fetch ve TypeScript:**
+   - Veriler `fetch` yardımı ile alındı.
+   - Projede TypeScript kullanıldı.
+
+3. **Component-1 İcon Butonları:**
+   - Component-1'de bulunan iconların buton olduğunu varsayarak hover olduğunda scale (büyüme) animasyonu eklendi.
+
+4. **Component-2 Resim Sürükle ve Bırak:**
+   - Component-2'de bulunan resimlere sürükle ve bırak özelliği eklendi. Kullanıcı resimlere tıklayıp basılı tutarak kendi aralarında yerlerini değiştirebilir.
+
+5. **Veri Alımı Animasyonu:**
+   - Verinin gelmesinde sorun yaşanması halinde ekranda belirecek animasyonlu loading ekranı yapıldı. Fetch yapısını bozarak (veri gelmesini engelleyerek) ya da `setInterval` ile verinin gelmesini geciktirerek görüntülenebilir.
+
+6. **Sayfa Açılış Animasyonu:**
+   - Sayfa açılırken divlere sağdan sola kayarak gelme animasyonu eklendi.
+
+7. **Component-3 Slider Özelliği:**
+   - Component-3'te bulunan slider kısmına sadece buton ile değil aynı zamanda mouse ile tıklayıp kaydırma özelliği ve animasyonu eklendi.
+
+8. **Component-5 Chart Geliştirme:**
+   - Component-5'te bulunan kısma chart geliştirildi. Ancak, design de bulunan Component-5 gibi görünmediği için Component-5, Figma tasarımına göre yapıldı. Chart çalışır vaziyettedir, istenirse eklenip design edilebilir. Kontrol etmek için `components` klasöründeki `Chart.tsx` dosyasına bakılabilir.
+
+9. **Mobil Responsive:**
+   - Proje mobil responsive olarak geliştirilmiştir. Spesifik olarak belirli bir telefonda çalışmasa da iPhone 14 Pro Max, Galaxy 20 Ultra ve Galaxy S8+ gibi cihazlarda doğru görüntüyü alabilirsiniz.
+
 
 
 
