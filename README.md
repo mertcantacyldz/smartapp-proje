@@ -1,3 +1,24 @@
+Merhabalar bu  metinde projede yaptıklarımdan bahsedeceğim.
+
+1- Tarih ve Saat verileri dinamik olarak anlık alınmakta kısaca bugünün tarihini göstermekte
+2-Veriler fetch yardımı ile alındı ve proje de  typscript kullanıldı
+3-Component-1 de bulunan iconların buton olduğunu var sayarak hover olduğunda scale(büyüme) animasyonu eklendi
+4-Component2- de bulunan resimlere sürükle ve bırak özelliği eklendi kullanıcı resimlere tıklayıp 
+   basılı tutarak kendi aralarında yerlerini değiştirebilir
+5- Verinin gelmesinde sorun yaşanması halinde ekranda belirecek animasyonlu loading ekranı yapıldı
+fetch yapısını bozarak( veri gelmesini engelleyerk) ya da setInterval ile verinin gelmesini geciktirerek  görüntülenebilir
+6-Sayfa açılırken  divlere sağdal sola kayarak gelme animasyonu eklendi
+7- Component 3 de bulunan slider kısmına  sadece  buton ile değil aynı zamanla mouse ile tıklayıp kaydırma özelliği ve animasyonu eklendi
+8- Component-5 deki kısma chart geliştirildi fakat  design de bulunan Component-5  gibi görünmediği için Component-5 figma-
+    tasarımına göre yapıldı ama Chart çalışır vaziyettedir istenirse eklenip design edilebilir.
+     Kontrol etmek   için components klasöründe ki Chart.tsx dosyasına bakılabilir
+9- Proje mobil responsive geliştirilmiştir  Spesifik olarak belirli bir telefonda çalışmasam da 
+iphone 14 pro max, galaxy 20 ultra ve galaxy s8+ da doğru görüntüyü alabilirsiniz.   
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
